@@ -286,6 +286,7 @@ wsServer.on('request', function(request) {
             nameChanged = true;
           }
 
+          
           // If the name had to be changed, we send a "rejectusername"
           // message back to the user so they know their name has been
           // altered by the server.
