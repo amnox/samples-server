@@ -13,7 +13,7 @@
 
 // Get our hostname
 
-var myHostname = window.location.hostname;
+var myHostname = 'server.echoedge.video';
 if (!myHostname) {
   myHostname = "localhost";
 }
