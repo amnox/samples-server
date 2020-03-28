@@ -156,6 +156,7 @@ try {
     httpsOptions.key = null;
     httpsOptions.cert = null;
   }
+  console.log(httpsOptions.key+""+httpsOptions.cert)
 } catch(err) {
   httpsOptions.key = null;
   httpsOptions.cert = null;
