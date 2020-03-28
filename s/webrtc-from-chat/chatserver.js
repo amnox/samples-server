@@ -35,7 +35,7 @@ var WebSocketServer = require('websocket').server;
 // HTTPS connections.
 
 const keyFilePath = "/etc/letsencrypt/live/server.echoedge.video/privkey.pem";
-const certFilePath = "/etc/letsencrypt/live/server.echoedge.video/privkey.pem";
+const certFilePath = "/etc/letsencrypt/live/server.echoedge.video/cert.pem";
 
 // Used for managing the text chat user list.
 
